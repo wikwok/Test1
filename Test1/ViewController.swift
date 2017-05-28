@@ -24,6 +24,10 @@ class ViewController: UIViewController {
         print(text1.text!)
         print(text2.text!)
         
+        //xLable.text = text1.text! + text2.text!
+        //xLable.text = String(Double(text1.text!)! + Double(text2.text!)!)
+        xLable.text = "Answer: \(Double(text1.text!)! + Double(text2.text!)!)"
+        
         /*
         tapCount = tapCount + 1
         xLable.text = "Hell there! You Tapped Me!"
