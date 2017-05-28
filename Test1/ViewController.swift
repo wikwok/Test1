@@ -21,8 +21,8 @@ class ViewController: UIViewController {
         print("Button tapped")
         print (tapCount)
         
-        if tapCount >= 10 {
-            xLable.text = "You have tapped me more than 10 time! Do you need help?"
+        if tapCount >= 20 {
+            xLable.text = "You have tapped me more than 20 time! Do you need help?"
         }
     }
     override func viewDidLoad() {
